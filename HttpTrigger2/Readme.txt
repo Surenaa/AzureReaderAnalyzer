@@ -1,0 +1,3 @@
+In this example, the function expects an HTTP POST request with a file uploaded in the body under the key "file". It saves the uploaded file to a temporary directory, reads its contents, and returns the contents as a response.
+
+You can deploy this Azure Function to your Azure account using the Azure Functions service and then send an HTTP POST request with a file attached to retrieve the contents of the uploaded text file.
