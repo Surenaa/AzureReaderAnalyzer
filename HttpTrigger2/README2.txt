@@ -1,0 +1,3 @@
+In this code, we define the url variable with the target URL. The send_random_number() function generates a random number between 1 and 100, creates a payload dictionary with the number as a parameter, and sends a POST request to the specified URL using requests.post(). The response status code is checked to determine if the request was successful or not.
+
+Finally, we call the send_random_number() function in a loop to send 10 random numbers to the URL. You can adjust the loop range or modify the code according to your specific requirements.
